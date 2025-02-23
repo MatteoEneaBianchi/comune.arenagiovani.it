@@ -8,6 +8,17 @@ permalink: /
 order: 1
 ---
 
+
+
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+
+<button onclick="netlifyIdentity.open()">Login</button>
+<button onclick="netlifyIdentity.logout()">Logout</button>
+
+
+
 <div class="container">
 <div class="row">
   <div class="col-12 col-lg-6">
